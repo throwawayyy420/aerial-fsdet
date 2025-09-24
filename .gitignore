@@ -1,0 +1,63 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore data files
+data/
+*.csv
+*.tsv
+*.json
+# Ignore model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+# Ignore logs
+logs/
+*.log
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+# Ignore test outputs
+test_output/
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+# Ignore package distribution files
+dist/
+build/
+*.egg-info/
+# Ignore other files
+*.bak
+*.swp
+*~
+# Ignore specific configuration files
+config.yaml
+settings.json
+# Ignore any other files or directories you want to exclude
+# For example, if you have a directory named 'output' for results
+output/

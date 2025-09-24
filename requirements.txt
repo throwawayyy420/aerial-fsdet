@@ -1,0 +1,36 @@
+# Core ML libraries
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# DINOv2 requirements
+transformers>=4.30.0
+timm>=0.9.0
+
+# Data handling and visualization
+numpy>=1.21.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+opencv-python>=4.5.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+scipy>=1.9.0
+
+# Demo interface
+gradio>=3.35.0
+
+# Development and testing
+pytest>=7.0.0
+jupyter>=1.0.0
+
+# Data format handling
+pycocotools>=2.0.6
+
+# Additional utilities
+scikit-learn>=1.1.0
+pandas>=1.5.0
+
+# Optional: For better performance
+# accelerate>=0.20.0
+# bitsandbytes>=0.39.0
